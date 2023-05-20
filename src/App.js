@@ -1,11 +1,11 @@
 import React from 'react';
-import Nav from './components/Navigation';
+import Header from './components/Header';
 
 // Pass users array to the List component as a prop
 export default function App() {
   return (
     <div>
-      <Nav />
+      <Header />
    </div>
   );
 }
