@@ -6,7 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from './pages/Portfolio';
 
 export default function Project() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
   const renderPage = () => {
     if (currentPage === "AboutMe") {
