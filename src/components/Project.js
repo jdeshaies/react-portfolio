@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function Project() {
@@ -16,9 +17,9 @@ export default function Project() {
     if (currentPage === "Portfolio") {
         return <Portfolio />;
       }
-    // if (currentPage === 'Blog') {
-    //   return <Blog />;
-    // }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
     return <Contact />;
   };
 
