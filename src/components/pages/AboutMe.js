@@ -2,7 +2,7 @@ import React from 'react';
 import profilePicture from '../../images/profile-picture.png';
 
 export default function AboutMe() {
-    const imageStyle = { width: '50%' }
+    const imageStyle = { width: '50%' };
   return (
     <div>
       <h1>About Me</h1>
