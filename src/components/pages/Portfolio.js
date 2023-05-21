@@ -8,7 +8,7 @@ import sampleWork5 from "../../images/sample-work-5.png";
 export default function Portolfio() {
   const imageStyle = { width: "25%" };
   return (
-    <section>
+    <div>
       <h1>Portfolio</h1>
       <div>
         <a href="https://jdeshaies.github.io/movie-search-project/">
@@ -37,6 +37,6 @@ export default function Portolfio() {
           />
         </a>
       </div>
-    </section>
+    </div>
   );
 }

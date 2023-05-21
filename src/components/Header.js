@@ -3,8 +3,8 @@ import Navigation from "./Navigation";
 
 export default function Header() {
   return (
-    <section>
+    <div>
       <h1>Joseph Deshaies</h1>
-    </section>
+    </div>
   );
 }

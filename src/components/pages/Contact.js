@@ -42,8 +42,9 @@ function Contact() {
 
   return (
     <div>
+      <h1>Contact</h1>
       <form className="form" onSubmit={handleFormSubmit}>
-      <label for="name">Name:</label>
+        <label for="name">Name:</label>
         <input
           value={name}
           name="name"
