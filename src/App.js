@@ -1,13 +1,6 @@
-import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer'
+import React from "react";
+import Project from "./components/Project";
 
-// Pass users array to the List component as a prop
-export default function App() {
-  return (
-    <div>
-      <Header />
-      <Footer />
-   </div>
-  );
-}
+const App = () => <Project />;
+
+export default App;
